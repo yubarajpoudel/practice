@@ -12,6 +12,7 @@
 		F60056C31D55A41400042D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60056C11D55A41400042D5C /* Main.storyboard */; };
 		F60056C51D55A41400042D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60056C41D55A41400042D5C /* Assets.xcassets */; };
 		F60056C81D55A41400042D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60056C61D55A41400042D5C /* LaunchScreen.storyboard */; };
+		F60056D31D55C1D000042D5C /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60056D21D55C1D000042D5C /* Empty.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F60056C41D55A41400042D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60056C71D55A41400042D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60056C91D55A41400042D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60056D21D55C1D000042D5C /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F60056C41D55A41400042D5C /* Assets.xcassets */,
 				F60056C61D55A41400042D5C /* LaunchScreen.storyboard */,
 				F60056C91D55A41400042D5C /* Info.plist */,
+				F60056D21D55C1D000042D5C /* Empty.xib */,
 			);
 			path = first;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60056C81D55A41400042D5C /* LaunchScreen.storyboard in Resources */,
+				F60056D31D55C1D000042D5C /* Empty.xib in Resources */,
 				F60056C51D55A41400042D5C /* Assets.xcassets in Resources */,
 				F60056C31D55A41400042D5C /* Main.storyboard in Resources */,
 			);
@@ -290,6 +294,7 @@
 				F60056CE1D55A41400042D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

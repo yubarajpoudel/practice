@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         msgButton.addTarget(self, action: #selector(ViewController.message), forControlEvents: .TouchDown)
         callButton.addTarget(self, action: #selector(ViewController.makeCalled), forControlEvents: .TouchUpInside)
-        
+      
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -41,12 +41,19 @@ class ViewController: UIViewController {
         presentViewController(dialog,animated: false, completion: nil)
     }
     
-    func makeCalled(){
-        print("Button is Clicked")
+    func makeCalled(sender:UIButton){
+        let url:NSURL? = NSURL(string: "tel://9842583634")
+        UIApplication.sharedApplication().openURL(url!)
+        print((sender.titleLabel?.text)! + "Button is Clicked")
     }
     func message() -> String {
         
         return "";
+    }
+    
+    enum Type{
+        case MESG
+        case CALL
     }
 }
 
